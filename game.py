@@ -1,7 +1,7 @@
 from goblin import Goblin
 
 
-ARENA_NAME = "Mandarin2"
+ARENA_NAME = "Dimensional Crack"
 
 
 def main():
@@ -10,10 +10,12 @@ def main():
     print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
     print("The doors are opening...")
 
-    goblin = Goblin("Characters")
+    goblin = Goblin("Beast Monarch")
+    goblin2 = Goblin("Insect Monarch")
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
-    print("But no teacher has answered the call... yet.")
+    print(f"{goblin2.name} enters the arena with {goblin2.health} health.")
+    print("But no hero has answered the call... yet.")
 
 
 if __name__ == "__main__":
